@@ -19,8 +19,8 @@ function Navbar({ onNavClick }) {
         {/* Logo de la universidad */}
         <div className="navbar-logo">
           <img 
-            src="/logo-oym.png" 
-            alt="Logo Universidad O&M" 
+            src="https://www.udoym.edu.do/wp-content/uploads/2020/10/logo_lema_universidad.png" 
+            alt=" Universidad O&M" 
             className="navbar-logo-img"
             onClick={() => handleNavClick('home')}
             style={{ cursor: 'pointer' }}
