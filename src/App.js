@@ -63,8 +63,8 @@ function App() {
   const renderPaginaInicio = () => (
     <div className="home-container">
       <div className="hero-section">
-        <h1>Bienvenido al Sistema de Información Académica</h1>
-        <h2>Universidad O&M</h2>
+        <h1 className='universidad-titulo'>Bienvenido al Sistema de Información Académica</h1>
+        <h2 className='universidad-titulo'>Universidad O&M</h2>
         <p>Explora nuestras carreras y descubre tu futuro profesional</p>
       </div>
       

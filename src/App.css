@@ -191,3 +191,10 @@ body {
     width: 100%;
   }
 }
+
+.universidad-titulo {
+  color: #f9a826; /* Color dorado para el nombre de la universidad */
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Sombra sutil para destacar */
+}
