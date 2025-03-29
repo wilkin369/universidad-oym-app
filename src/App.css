@@ -1,0 +1,193 @@
+/* Archivo: src/App.css */
+/* Estilos principales de la aplicación */
+
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Estilos del pie de página */
+.footer {
+  background-color: #1a237e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* Estilos para la página de inicio */
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-section {
+  background-image: linear-gradient(to right, #1a237e, #3949ab);
+  color: white;
+  padding: 60px 30px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero-section h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.hero-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.carreras-section {
+  padding: 20px 0;
+}
+
+.carreras-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1a237e;
+  font-size: 2rem;
+}
+
+.carreras-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Estilos para la página de detalle */
+.detalle-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.boton-volver {
+  background-color: #f5f5f5;
+  color: #1a237e;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.boton-volver:hover {
+  background-color: #e0e0e0;
+}
+
+.detalle-header {
+  background-color: #f5f5f5;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  border-left: 6px solid #1a237e;
+}
+
+.detalle-header h1 {
+  color: #1a237e;
+  margin-bottom: 15px;
+}
+
+.detalle-info {
+  margin-top: 15px;
+}
+
+.detalle-info p {
+  margin: 5px 0;
+}
+
+.pensum-section {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.pensum-section h2 {
+  color: #1a237e;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.filtro-semestre {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filtro-semestre select {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.materias-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .hero-section {
+    padding: 40px 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 1.8rem;
+  }
+  
+  .hero-section h2 {
+    font-size: 1.5rem;
+  }
+  
+  .hero-section p {
+    font-size: 1rem;
+  }
+  
+  .detalle-header {
+    padding: 20px;
+  }
+  
+  .pensum-section {
+    padding: 20px;
+  }
+  
+  .filtro-semestre {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .filtro-semestre select {
+    width: 100%;
+  }
+}

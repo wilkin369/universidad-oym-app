@@ -1,0 +1,51 @@
+/* Archivo: src/components/Materia.css */
+/* Estilos para las materias */
+
+.materia-container {
+    background-color: #f5f5f5;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 4px solid #1a237e;
+  }
+  
+  .materia-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .materia-nombre {
+    margin: 0;
+    color: #1a237e;
+    font-size: 1.2rem;
+  }
+  
+  .materia-codigo {
+    background-color: #e0e0e0;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
+  .materia-content {
+    padding-top: 5px;
+  }
+  
+  .materia-detalles p {
+    margin: 5px 0;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .materia-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .materia-codigo {
+      margin-top: 5px;
+    }
+  }
